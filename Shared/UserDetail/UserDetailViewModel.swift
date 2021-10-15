@@ -12,7 +12,7 @@ final class UserDetailViewModel: ObservableObject {
     private let repostitory: UserDetailRepositoryProtocol
     private var subscriptions = Set<AnyCancellable>()
     
-    var user: User?
+    let user: User
     
     init(user: User, repostitory: UserDetailRepositoryProtocol = UserDetailRepository()) {
         self.user = user
