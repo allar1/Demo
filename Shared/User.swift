@@ -8,12 +8,12 @@
 import Foundation
 
 struct User: Codable, Identifiable {
-    var id = UUID()
-    var name: String
+    let id: Int
+    let name: String
 }
 
 extension User {
     static func fake() -> Self {
-        User(name: "Fake user")
+        User(id: 123, name: "Fake user")
     }
 }

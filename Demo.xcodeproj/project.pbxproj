@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C055D6D271E40F6002236CA /* UsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C055D6C271E40F6002236CA /* UsersRouter.swift */; };
+		5C055D6E271E40F6002236CA /* UsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C055D6C271E40F6002236CA /* UsersRouter.swift */; };
+		5C055D70271E418D002236CA /* CreateUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C055D6F271E418D002236CA /* CreateUserRouter.swift */; };
+		5C055D71271E418E002236CA /* CreateUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C055D6F271E418D002236CA /* CreateUserRouter.swift */; };
+		5C34C6762719254A005F4E3A /* CreateUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34C6752719254A005F4E3A /* CreateUserViewModel.swift */; };
+		5C34C67827192559005F4E3A /* CreateUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34C67727192559005F4E3A /* CreateUserView.swift */; };
+		5C34C67A27192569005F4E3A /* CreateUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34C67927192569005F4E3A /* CreateUserRepository.swift */; };
+		5C34C67D271938E0005F4E3A /* DTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34C67C271938E0005F4E3A /* DTextField.swift */; };
+		5C34C67F27193CF4005F4E3A /* ValidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34C67E27193CF4005F4E3A /* ValidationState.swift */; };
 		5CB317BE27162F1900A8919B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB317BD27162F1900A8919B /* Tests_macOS.swift */; };
 		5CB317C027162F1900A8919B /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB317BF27162F1900A8919B /* Tests_macOSLaunchTests.swift */; };
 		5CB317C127162F1900A8919B /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3179927162F1700A8919B /* DemoApp.swift */; };
@@ -25,6 +34,10 @@
 		5CE15C932718D31400CB1D84 /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE15C922718D31400CB1D84 /* UserDetailViewModel.swift */; };
 		5CE15C952718D34C00CB1D84 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE15C942718D34C00CB1D84 /* UserDetailView.swift */; };
 		5CE15C972718D3B300CB1D84 /* UserDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE15C962718D3B300CB1D84 /* UserDetailRepository.swift */; };
+		5CE35801271E2EAE00FDE50A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE35800271E2EAE00FDE50A /* APIClient.swift */; };
+		5CE35803271E334E00FDE50A /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE35802271E334E00FDE50A /* HTTPMethod.swift */; };
+		5CE35805271E33C300FDE50A /* URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE35804271E33C300FDE50A /* URLRequestConvertible.swift */; };
+		5CE35807271E350200FDE50A /* UserRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE35806271E350200FDE50A /* UserRequests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C055D6C271E40F6002236CA /* UsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRouter.swift; sourceTree = "<group>"; };
+		5C055D6F271E418D002236CA /* CreateUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserRouter.swift; sourceTree = "<group>"; };
+		5C34C6752719254A005F4E3A /* CreateUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewModel.swift; sourceTree = "<group>"; };
+		5C34C67727192559005F4E3A /* CreateUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserView.swift; sourceTree = "<group>"; };
+		5C34C67927192569005F4E3A /* CreateUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserRepository.swift; sourceTree = "<group>"; };
+		5C34C67C271938E0005F4E3A /* DTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTextField.swift; sourceTree = "<group>"; };
+		5C34C67E27193CF4005F4E3A /* ValidationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationState.swift; sourceTree = "<group>"; };
 		5CB3179927162F1700A8919B /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 		5CB3179B27162F1900A8919B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB317A027162F1900A8919B /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +82,10 @@
 		5CE15C922718D31400CB1D84 /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
 		5CE15C942718D34C00CB1D84 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		5CE15C962718D3B300CB1D84 /* UserDetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailRepository.swift; sourceTree = "<group>"; };
+		5CE35800271E2EAE00FDE50A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5CE35802271E334E00FDE50A /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		5CE35804271E33C300FDE50A /* URLRequestConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestConvertible.swift; sourceTree = "<group>"; };
+		5CE35806271E350200FDE50A /* UserRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +120,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C34C67427192522005F4E3A /* CreateUser */ = {
+			isa = PBXGroup;
+			children = (
+				5C34C6752719254A005F4E3A /* CreateUserViewModel.swift */,
+				5C34C67727192559005F4E3A /* CreateUserView.swift */,
+				5C34C67927192569005F4E3A /* CreateUserRepository.swift */,
+				5C055D6F271E418D002236CA /* CreateUserRouter.swift */,
+			);
+			path = CreateUser;
+			sourceTree = "<group>";
+		};
+		5C34C67B27193823005F4E3A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5C34C67C271938E0005F4E3A /* DTextField.swift */,
+				5C34C67E27193CF4005F4E3A /* ValidationState.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		5CB3179327162F1700A8919B = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +154,9 @@
 		5CB3179827162F1700A8919B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5CE357FF271E2E8B00FDE50A /* Networking */,
+				5C34C67B27193823005F4E3A /* Common */,
+				5C34C67427192522005F4E3A /* CreateUser */,
 				5CE15C912718D1AC00CB1D84 /* Users */,
 				5CE15C902718D1A500CB1D84 /* UserDetail */,
 				5CB3179B27162F1900A8919B /* Assets.xcassets */,
@@ -171,8 +218,20 @@
 				5CB317D52716302F00A8919B /* UsersRepository.swift */,
 				5CB317DB271631C200A8919B /* UsersViewModel.swift */,
 				5CB317E12716333C00A8919B /* UsersView.swift */,
+				5C055D6C271E40F6002236CA /* UsersRouter.swift */,
 			);
 			path = Users;
+			sourceTree = "<group>";
+		};
+		5CE357FF271E2E8B00FDE50A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5CE35800271E2EAE00FDE50A /* APIClient.swift */,
+				5CE35802271E334E00FDE50A /* HTTPMethod.swift */,
+				5CE35804271E33C300FDE50A /* URLRequestConvertible.swift */,
+				5CE35806271E350200FDE50A /* UserRequests.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,14 +392,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C34C67D271938E0005F4E3A /* DTextField.swift in Sources */,
+				5C055D70271E418D002236CA /* CreateUserRouter.swift in Sources */,
 				5CB317D92716306B00A8919B /* User.swift in Sources */,
+				5C34C67827192559005F4E3A /* CreateUserView.swift in Sources */,
+				5CE35807271E350200FDE50A /* UserRequests.swift in Sources */,
 				5CB317E22716333C00A8919B /* UsersView.swift in Sources */,
+				5C34C6762719254A005F4E3A /* CreateUserViewModel.swift in Sources */,
 				5CB317C127162F1900A8919B /* DemoApp.swift in Sources */,
 				5CB317DC271631C200A8919B /* UsersViewModel.swift in Sources */,
+				5CE35801271E2EAE00FDE50A /* APIClient.swift in Sources */,
+				5CE35803271E334E00FDE50A /* HTTPMethod.swift in Sources */,
 				5CE15C952718D34C00CB1D84 /* UserDetailView.swift in Sources */,
 				5CE15C932718D31400CB1D84 /* UserDetailViewModel.swift in Sources */,
 				5CB317D62716302F00A8919B /* UsersRepository.swift in Sources */,
+				5C055D6D271E40F6002236CA /* UsersRouter.swift in Sources */,
+				5C34C67A27192569005F4E3A /* CreateUserRepository.swift in Sources */,
+				5C34C67F27193CF4005F4E3A /* ValidationState.swift in Sources */,
 				5CE15C972718D3B300CB1D84 /* UserDetailRepository.swift in Sources */,
+				5CE35805271E33C300FDE50A /* URLRequestConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +419,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CB317DA2716306B00A8919B /* User.swift in Sources */,
+				5C055D6E271E40F6002236CA /* UsersRouter.swift in Sources */,
 				5CB317E32716333C00A8919B /* UsersView.swift in Sources */,
 				5CB317C227162F1900A8919B /* DemoApp.swift in Sources */,
 				5CB317DD271631C200A8919B /* UsersViewModel.swift in Sources */,
+				5C055D71271E418E002236CA /* CreateUserRouter.swift in Sources */,
 				5CB317D72716302F00A8919B /* UsersRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
